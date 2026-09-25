@@ -13,8 +13,9 @@ body{
     flex-direction: column;
     color: rgb(0, 0, 0);
     font-size: 10px;
-    gap: 20px;
+    gap: 10px;
 }
+
 /*div cadre*/
 .cadre{
     display: flex;
@@ -42,6 +43,7 @@ button:hover{
 #de{
     font-size: 10em;
     padding: 10px;
+    transition: 2s;
 }
    
 
