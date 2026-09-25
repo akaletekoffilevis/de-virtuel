@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0px;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     display: flex;
@@ -17,7 +17,7 @@ body{
 }
 
 /*div cadre*/
-.cadre{
+.cadre {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,8 +25,8 @@ body{
     border-style: double;
 }
 
-button{
-    background-color:darkorange;
+button {
+    background-color: darkorange;
     padding: 5px;
     border: none;
     border-radius: 5px;
@@ -34,16 +34,14 @@ button{
     font-size: 10px;
 }
 
-button:hover{
+button:hover {
     transition: 0.5s;
     background: rgb(88, 161, 88);
     color: white;
 }
 
-#de{
+#de {
     font-size: 10em;
     padding: 10px;
     transition: 2s;
 }
-   
-
