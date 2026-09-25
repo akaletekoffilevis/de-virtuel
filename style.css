@@ -8,40 +8,50 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     display: flex;
+    /* flex-direction: column; */
+    /* flex-flow: wrap; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: rgb(0, 0, 0);
     font-size: 10px;
-    gap: 10px;
+    height: 100vh;
+    width: 100%;
+    gap: 20px;
+}
+
+h1{
+    font-size: 4em;
 }
 
 /*div cadre*/
 .cadre {
     display: flex;
-    flex-direction: column;
+    width: auto;
+    height: auto;
     justify-content: center;
     align-items: center;
     border-style: double;
+    padding: 5px;
 }
 
 button {
     background-color: darkorange;
-    padding: 5px;
+    padding: 10px;
+    font-weight: bolder;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 2em;
 }
 
 button:hover {
     transition: 0.5s;
-    background: rgb(88, 161, 88);
-    color: white;
+    background: black;
+    color: darkorange;
 }
 
-#de {
-    font-size: 10em;
-    padding: 10px;
-    transition: 2s;
+.de {
+    font-size: 20em;
+    padding: 1px;
 }
